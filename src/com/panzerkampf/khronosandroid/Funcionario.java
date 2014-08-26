@@ -2,8 +2,7 @@ package com.panzerkampf.khronosandroid;
 
 import java.io.Serializable;
 
-public class Funcionario implements Serializable
-{
+public class Funcionario implements Serializable {
 	private static final long serialVersionUID = -4348018189820590485L;
 	private int id;
 	private String nome;
@@ -60,5 +59,4 @@ public class Funcionario implements Serializable
 		this.id = id;
 	}
 
-	
 }

@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class Usuario implements Serializable {
 
 	private static final long serialVersionUID = 5756978206574312835L;
+	private int id;
 	private String email;
 	private String senha;
 	private String nomeEmpresa;
@@ -31,6 +32,14 @@ public class Usuario implements Serializable {
 
 	public void setNomeEmpresa(String nomeEmpresa) {
 		this.nomeEmpresa = nomeEmpresa;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 }
